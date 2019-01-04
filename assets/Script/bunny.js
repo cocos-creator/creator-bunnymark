@@ -166,7 +166,7 @@ cc.Class({
         bunnys.push(bunny);
         bunny.scale = 0.3;
 
-        bunny.rotation = 360 * (Math.random()*0.2 - 0.1);
+        bunny.angle = 360 * (Math.random()*0.2 - 0.1);
 
         this.node.addChild(bunny);
         count++;
@@ -201,7 +201,7 @@ cc.Class({
                 //bunny.alpha = 0.3 + Math.random() * 0.7;
                 lbunnys.push(bunny);
                 bunny.scale = 0.3;
-                bunny.rotation = 360 * (Math.random()*0.2 - 0.1);
+                bunny.angle = 360 * (Math.random()*0.2 - 0.1);
 
                 bunny.parent = parent;
                 count++;
